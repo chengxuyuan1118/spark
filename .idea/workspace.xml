@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="78cbe476-ed71-4d18-908b-2b73bdd95d79" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\spark\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.1" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y4NRNtsS7j8stpehXCx8ZOqQhi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/doc" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\liwei\IdeaProjects\spark\doc" />
+      <recent name="C:\Users\liwei\IdeaProjects\spark\src\main\java\com\liwei\spark" />
+      <recent name="C:\Users\liwei\IdeaProjects\spark\src" />
+      <recent name="C:\Users\liwei\IdeaProjects\spark\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.spark [clean]">
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liwei.kafka.Consumer" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liwei.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liwei.kafka.Producer" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liwei.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkKafka" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liwei.streaming.SparkKafka" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liwei.streaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkSqlStreaming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liwei.streaming.SparkSqlStreaming" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liwei.streaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="spark [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="Remote" nameIsGenerated="true">
+      <module name="spark" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Remote">
+      <module name="spark" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Producer" />
+      <item itemvalue="Application.Consumer" />
+      <item itemvalue="Maven.spark [clean]" />
+      <item itemvalue="Remote.Unnamed" />
+      <item itemvalue="Application.SparkKafka" />
+      <item itemvalue="Application.SparkSqlStreaming" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.spark [clean]" />
+        <item itemvalue="Application.SparkSqlStreaming" />
+        <item itemvalue="Application.Producer" />
+        <item itemvalue="Application.SparkKafka" />
+        <item itemvalue="Application.Consumer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78cbe476-ed71-4d18-908b-2b73bdd95d79" name="Default Changelist" comment="" />
+      <created>1582197897603</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582197897603</updated>
+      <workItem from="1582197903184" duration="233000" />
+      <workItem from="1582198418686" duration="146000" />
+      <workItem from="1582198592989" duration="319000" />
+      <workItem from="1582198937230" duration="2140000" />
+      <workItem from="1582202763406" duration="3551000" />
+      <workItem from="1582258078731" duration="28434000" />
+      <workItem from="1582346860809" duration="17120000" />
+      <workItem from="1582432076866" duration="9931000" />
+      <workItem from="1582447266902" duration="11710000" />
+      <workItem from="1582459388975" duration="3412000" />
+      <workItem from="1582516368782" duration="10221000" />
+      <workItem from="1582529795607" duration="1132000" />
+      <workItem from="1582530948740" duration="76000" />
+      <workItem from="1582534914207" duration="33000" />
+      <workItem from="1582544375873" duration="2909000" />
+      <workItem from="1582549751778" duration="2598000" />
+      <workItem from="1582553452791" duration="91000" />
+      <workItem from="1582553610023" duration="61000" />
+      <workItem from="1582597139827" duration="501000" />
+      <workItem from="1582598726263" duration="14459000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Project_Structure" timestamp="1582527919596">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1582527919596" />
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582359356365">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582359356365" />
+    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1582609759829">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582609759829" />
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582262174742">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1582262174742" />
+    <state x="533" y="213" key="#com.intellij.tools.ToolEditorDialog" timestamp="1582350136466">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="533" y="213" key="#com.intellij.tools.ToolEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1582350136466" />
+    <state width="841" height="466" key="DebuggerActiveHint" timestamp="1582611154913">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="841" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1582611154913" />
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1582204362519">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582204362519" />
+    <state width="1493" height="125" key="GridCell.Tab.0.bottom" timestamp="1582613228986">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="125" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582613228986" />
+    <state width="1493" height="125" key="GridCell.Tab.0.center" timestamp="1582613228986">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="125" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582613228986" />
+    <state width="1493" height="125" key="GridCell.Tab.0.left" timestamp="1582613228986">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="125" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582613228986" />
+    <state width="1493" height="125" key="GridCell.Tab.0.right" timestamp="1582613228986">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="125" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582613228986" />
+    <state width="1493" height="125" key="GridCell.Tab.1.bottom" timestamp="1582613228986">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="125" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582613228986" />
+    <state width="1493" height="125" key="GridCell.Tab.1.center" timestamp="1582613228986">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="125" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582613228986" />
+    <state width="1493" height="125" key="GridCell.Tab.1.left" timestamp="1582613228986">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="125" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582613228986" />
+    <state width="1493" height="125" key="GridCell.Tab.1.right" timestamp="1582613228986">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="125" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582613228986" />
+    <state x="272" y="57" key="SettingsEditor" timestamp="1582598811719">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582598811719" />
+    <state x="663" y="150" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1582350138370">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="663" y="150" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.0.1536.824@0.0.1536.824" timestamp="1582350138370" />
+    <state x="320" y="151" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1582358216227">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="320" y="151" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1582358216227" />
+    <state x="499" y="183" key="extract.method.dialog" timestamp="1582444866832">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="183" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1582444866832" />
+    <state x="178" y="116" key="new project wizard" timestamp="1582534944067">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="116" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1582534944067" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1582522553678">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1582522553678" />
+  </component>
+</project>
